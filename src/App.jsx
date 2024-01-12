@@ -1,12 +1,12 @@
-import { useState } from 'react'
 import './App.css'
+import Heading from './components/Heading'
 
 function App() {
 
   return (
-    <>
-      <h1 className='text-center'>Mobile UI</h1>
-    </>
+    <div className='w-[600px] min-h-[100vh] m-auto border-x-4'>
+      <Heading />
+    </div>
   )
 }
 
