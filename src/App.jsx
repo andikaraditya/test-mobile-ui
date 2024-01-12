@@ -2,6 +2,7 @@ import './App.css'
 import Heading from './components/Heading'
 import MenuSection from './components/MenuSection'
 import ProductSection from './components/ProductSection'
+import PromoSection from './components/PromoSection'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <Heading />
       <MenuSection />
       <ProductSection />
+      <PromoSection />
     </div>
   )
 }
