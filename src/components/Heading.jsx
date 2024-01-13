@@ -1,4 +1,5 @@
 import Logo from "../assets/logo.png"
+import Carousel from "./Carousel"
 function Heading() {
     return (
         <>
@@ -43,10 +44,7 @@ function Heading() {
                     </svg>
                 </div>
             </nav>
-            <div className="bg-red-400 h-[300px]">
-                banner content here
-                Carousel
-            </div>
+            <Carousel />
         </>
     )
 }
