@@ -7,14 +7,14 @@ function Heading() {
                 <div className="flex-1 h-[100%] flex">
                     <img src={Logo} className="h-4/5 my-auto" alt="" />
                 </div>
-                <div className="flex h-[100%] items-center gap-6 text-slate-700">
+                <div className="flex h-[100%] items-center gap-8 text-slate-700">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="16"
                         height="16"
                         fill="currentColor"
                         viewBox="0 0 16 16"
-                        className="h-3/5 w-auto"
+                        className="h-2/5 w-auto"
                     >
                         <path d="M2 2h2v2H2z" />
                         <path d="M6 0v6H0V0zM5 1H1v4h4zM4 12H2v2h2z" />
@@ -28,7 +28,7 @@ function Heading() {
                         height="16"
                         fill="currentColor"
                         viewBox="0 0 16 16"
-                        className="h-3/5 w-auto"
+                        className="h-1/2 w-auto"
                     >
                         <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
                     </svg>
@@ -38,7 +38,7 @@ function Heading() {
                         height="16"
                         fill="currentColor"
                         viewBox="0 0 16 16"
-                        className="h-3/5 w-auto"
+                        className="h-2/5 w-[20px]"
                     >
                         <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0" />
                     </svg>
