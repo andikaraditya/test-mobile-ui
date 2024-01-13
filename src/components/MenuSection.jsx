@@ -1,4 +1,7 @@
 import crown from "../assets/crown.png"
+import curve1 from "../assets/curve1.svg";
+import curve2 from "../assets/curve2.svg";
+import promo from "../assets/promo.png";
 
 const menu = [
     {
@@ -76,13 +79,18 @@ function MenuSection() {
                     return <MenuIcon item={el} key={index} />
                 })}
             </div>
-            <div className="bg-blue-600 rounded-xl py-9 px-5 flex flex-col items-end gap-10 mt-6">
+            <div className="bg-blue-600 rounded-xl py-9 px-5 flex flex-col items-end gap-10 mt-6 relative overflow-hidden">
                 <p className="text-white text-right text-2xl font-bold w-3/5 right-0">
                     Dapatkan 5 poin dengan mengajak teman kamu
                 </p>
                 <button className="text-blue-500 bg-white rounded-xl px-5 py-4 font-bold">
                     REFER NOW
                 </button>
+                <img src={curve1} className="absolute bottom-0 left-20 opacity-10 scale-x-150" alt="" />
+                <img src={curve2} className="absolute top-[-80px] right-[-80px] opacity-10 scale-x-125 rotate-[-10deg]" alt="" />
+                <img src={curve2} className="absolute top-[-110px] right-[-80px] opacity-20 rotate-[-10deg]" alt="" />
+                <img src={curve2} className="absolute scale-x-[-1] top-[-60px] left-[-280px] opacity-10 rotate-[-10deg]" alt="" />
+                <img src={promo} className="absolute w-[200px] h-auto left-7 bottom-4" alt="" />
             </div>
         </div>
     )
